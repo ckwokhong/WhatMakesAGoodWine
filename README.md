@@ -1,6 +1,3 @@
-# WhatMakesAGoodWine
-
-
 <center><h1>What makes a good wine?</h1></center>
 
 
@@ -28,27 +25,27 @@ This report provides an analysis and evaluation on what makes a good and tasty w
 ### Methodology
 
 #### Cleaning up data
-In this section, the columns not required are removed and any data with null value in the rows were also removed using dropna().
+In this section, the columns not required are removed and any data with null value in the rows were also removed using dropna().<br>
 1. [Importing and cleanup Data](#Importing-and-cleanup-Data)
 
 #### Comparing data with countries and points
-Looking at different countries and the points collected, we managed to plot a map showcasing the average points of wines for each country
-2. [Country with the highest number of 100 points wines](#Country-with-the-highest-number-of-100-points-wines)
-3. [Map with Mean ratings of wine](#Map-with-Mean-ratings-of-wine(Folium))
+Looking at different countries and the points collected, we managed to plot a map showcasing the average points of wines for each country<br>
+2. [Country with the highest number of 100 points wines](#Country-with-the-highest-number-of-100-points-wines)<br>
+3. [Map with Mean ratings of wine](#Map-with-Mean-ratings-of-wine(Folium))<br>
 
 #### Comparing data with points and prices
-In this segment, the pearson correlation is used to determine the relationship between prices and points as well as the strength of the said relationship. We also studied the skewness of the variables using boxplot
-4. [Higher price corresponds to high ratings wine?](#Does-higher-price-corresponds-to-high-ratings-wine?)
+In this segment, the pearson correlation is used to determine the relationship between prices and points as well as the strength of the said relationship. We also studied the skewness of the variables using boxplot<br>
+4. [Higher price corresponds to high ratings wine?](#Does-higher-price-corresponds-to-high-ratings-wine?)<br>
 
 ##### Machine Learning
-We further the study by creating a machine learning model to study the descriptions of each wine which predict the points.
-5. [Understanding wine description with NBClassifier](#Understanding-wine-description-with-Naive-Bayes-Classification-Algorithm)
-6. [Understanding wine description by countries with DecisionTree](#Understanding-wine-description-by-countries-with-DecisionTree)
-7. [Feature Importance with DecisionTree](#Feature-Importance-with-DecisionTree)
+We further the study by creating a machine learning model to study the descriptions of each wine which predict the points.<br>
+5. [Understanding wine description with NBClassifier](#Understanding-wine-description-with-Naive-Bayes-Classification-Algorithm)<br>
+6. [Understanding wine description by countries with DecisionTree](#Understanding-wine-description-by-countries-with-DecisionTree)<br>
+7. [Feature Importance with DecisionTree](#Feature-Importance-with-DecisionTree)<br>
 
 ##### Word Cloud
-Examining the description from various country's wine and uncovering the max common words appeared using a Word cloud
-8. [Understanding wine description with wordcloud](#Understanding-wine-description-with-wordcloud)
+Examining the description from various country's wine and uncovering the max common words appeared using a Word cloud<br>
+8. [Understanding wine description with wordcloud](#Understanding-wine-description-with-wordcloud)<br>
 
 Lastly, [Conclusion](#Conclusion)
 
